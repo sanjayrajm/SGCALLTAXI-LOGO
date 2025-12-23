@@ -1,21 +1,18 @@
-/* Reset all default spacing */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Full screen base */
 html, body {
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
 
-/* Full screen image */
-.fullscreen-image {
+.fullscreen-img {
   width: 100vw;
   height: 100vh;
-  object-fit: cover;   /* fills entire screen */
+  object-fit: cover;   /* fills screen without distortion */
   display: block;
 }
